@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background for horror theme */
+    color: #ffffff;
+}
+
+
+header {
+    background-color: #1c1c1c;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #e50914; 
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #e50914;
+}
+
+main {
+    padding: 20px;
+}
+
+ul#movie-list {
+    list-style: none;
+    padding: 0;
+}
+
+ul#movie-list li {
+    background-color: #252525;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid #e50914;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease-in-out, background-color 0.2s;
+}
+
+ul#movie-list li:hover {
+    transform: scale(1.05);
+    background-color: #333333;
+}
